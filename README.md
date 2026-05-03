@@ -1,7 +1,6 @@
 Project status: not started 
 
-
-Planned start: During Nengo Summer School
+Planned start: During Nengo Summer School 
 
 # Background
 
@@ -10,3 +9,4 @@ While empirical and observational methods have traditionally shaped resilience r
 investigation [7]. Importantly, acute and chronic stress differ in their effects on the brain, with consequences for neural plasticity and functional stability [8, 9], which are shaped by individual differences in stress-resilience versus vulnerability [10]. Brain network simulation models allow controlled perturbations to probe resilience, maladaptive responses, and recovery dynamics over time, and provide a pathway toward real-time, embodied implementations that can connect neural dynamics to behavior.
 
 The primary objective is to construct resilient and vulnerable computational brain network models, and to examine how controlled perturbations of varying intensity and duration affect their dynamics and stability before, during, and after stress, enabling comparisons of acute and chronic stress to study stress resilience.
+
