@@ -1,6 +1,7 @@
 # Overall Analysis Plan 
 
-Use this as a guideline to analyze graph-like neural networks that use recurrence, ei balance and neuromodulation to make the networks "biologically meaningful"
+Use this as a workflow to analyze different graph-like neural networks that use recurrence, ei balance and neuromodulation to make the networks "biologically meaningful"
+Context: Stress resilience
 
 ## 1. Quality Control & Weight Distribution
 
