@@ -2,7 +2,6 @@
 
 Use this as a workflow to analyze different graph-like neural networks that use recurrence, ei balance and neuromodulation to make the networks "biologically meaningful"
 
-Keywords: Stress resilience, acute vs chronic stress
 
 ## 1. Quality Control & Weight Distribution
 
