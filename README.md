@@ -1,6 +1,4 @@
-Project status:
-
-Planned start:
+Project status: Planned, on hold
 
 # Background
 
