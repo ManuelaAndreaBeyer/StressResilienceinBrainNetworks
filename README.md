@@ -1,6 +1,6 @@
-Project status: not started 
+Project status:
 
-Planned start: During Nengo Summer School 
+Planned start:
 
 # Background
 
