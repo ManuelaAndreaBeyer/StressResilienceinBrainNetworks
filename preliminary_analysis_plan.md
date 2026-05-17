@@ -1,5 +1,7 @@
 # Overall Analysis Plan - Nengo Summer School 2026 preparation
 
+# TODO update this after Latex decluttering!
+
 For me, the brain is a network and I would love to analyze the constructed netorks alike.
 
 Usage: 
