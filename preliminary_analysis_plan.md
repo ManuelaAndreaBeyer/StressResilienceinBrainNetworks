@@ -1,7 +1,22 @@
 # Overall Analysis Plan 
 
-Use this as a workflow to analyze different graph-like neural networks that use recurrence, ei balance and neuromodulation to make the networks "biologically meaningful"
+Use this as a workflow to analyze different graph-like neural networks that use recurrence, ei balance and neuromodulation to make the networks "biologically meaningful".
 
+A validation in torch assessing the applicability of brain network analysis to resilience research has been initiated using multiple stress paradigms (acute vs. chronic stress) and network architectures. Preliminary findings indicate chronic stress–associated alterations in network organization and dynamics.
+
+old torch implementation #upload here or keep this repo nengo-only? or for later paper in supplements?
+
+This workflow is intended to analyze graph-based neural network models incorporating recurrence, excitatory/inhibitory (E/I) balance, and neuromodulatory mechanisms in order to improve biological plausibility.
+
+The long-term goal is to investigate whether biologically inspired network architectures can provide mechanistic insights into stress resilience and adaptive network dynamics.
+
+This line of work originated in the context of the initial application for the Nengo Summer School 2025. 
+
+
+--- 
+
+All start implementations can be analyzed with the following pipeline:
+This pipeline resulted from failures I had with a pipeline implementation 2024, it was already possible to use it to analyze networks with it :)
 
 ## 1. Quality Control & Weight Distribution
 
