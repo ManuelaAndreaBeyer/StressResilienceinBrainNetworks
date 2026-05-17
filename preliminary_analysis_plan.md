@@ -2,10 +2,15 @@
 
 # TODO update this after Latex decluttering!
 
-For me, the brain is a network and I would love to analyze the constructed netorks alike.
 
 Usage: 
 This as a workflow to analyze different graph-like neural networks that use recurrence, ei balance and neuromodulation to make the networks "biologically meaningful". 
+
+---
+
+For me, the brain is a network and I would love to analyze the constructed netorks alike 
+
+The long-term goal is to investigate whether biologically inspired network architectures can provide mechanistic insights into stress resilience and adaptive network dynamics. My particular interest is in comparing different network architecture and network metrics and how they change under acute vs chronic stress. I am also interested in detecting transitions, that already came up in implementation and I would welcome the chance to discuss very preliminary findings.
 
 
 --- 
