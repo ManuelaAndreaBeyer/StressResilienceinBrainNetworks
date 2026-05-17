@@ -4,7 +4,7 @@
 
 
 Usage: 
-This as a workflow to analyze different graph-like neural networks that use recurrence, ei balance and neuromodulation to make the networks "biologically meaningful". 
+This as a workflow to analyze different graph-like neural networks that use recurrence, E/I balance and neuromodulation to make the networks "biologically meaningful". 
 
 ---
 
