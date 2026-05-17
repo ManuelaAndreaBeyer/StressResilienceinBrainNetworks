@@ -15,8 +15,12 @@ This line of work originated in the context of the initial application for the N
 
 --- 
 
-All start implementations can be analyzed with the following pipeline:
+All implementations of cortical networks ( I not sure which I will finally choose after the Summer School) can be analyzed with the following pipeline:
 This pipeline resulted from failures I had with a pipeline implementation 2024, it was already possible to use it to analyze networks with it :)
+
+--- 
+
+# Pipeline 
 
 ## 1. Quality Control & Weight Distribution
 
