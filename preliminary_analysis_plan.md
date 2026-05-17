@@ -1,14 +1,18 @@
-# Overall Analysis Plan 
+# Overall Analysis Plan - Nengo Summer School 2026 preparation
 
-Use this as a workflow to analyze different graph-like neural networks that use recurrence, ei balance and neuromodulation to make the networks "biologically meaningful".
+Use this as a workflow to analyze different graph-like neural networks that use recurrence, ei balance and neuromodulation to make the networks "biologically meaningful". For me, the brain is a network and I would love to analyze the constructed netorks alike.
 
 A validation in torch assessing the applicability of brain network analysis to resilience research has been initiated using multiple stress paradigms (acute vs. chronic stress) and network architectures. Preliminary findings indicate chronic stress–associated alterations in network organization and dynamics.
 
-old torch implementation #upload here or keep this repo nengo-only? or for later paper in supplements?
+Old torch implementation #upload here or keep this repo nengo-only? or for later paper in supplements? 
+
+Important note: I used Recurrence on a high level and not for modeling single neurons. 
+
+I would welcome the chance to learn about which specific machine learning-like computations can help to make networks more plausible.
 
 This workflow is intended to analyze graph-based neural network models incorporating recurrence, excitatory/inhibitory (E/I) balance, and neuromodulatory mechanisms in order to improve biological plausibility.
 
-The long-term goal is to investigate whether biologically inspired network architectures can provide mechanistic insights into stress resilience and adaptive network dynamics.
+The long-term goal is to investigate whether biologically inspired network architectures can provide mechanistic insights into stress resilience and adaptive network dynamics. My particular interest is in comparing different __network architecture and network metrics__ and how they change under stress. I also interested in possible transitions, that already came up and would welcome the chance to discuss this.
 
 This line of work originated in the context of the initial application for the Nengo Summer School 2025. 
 
