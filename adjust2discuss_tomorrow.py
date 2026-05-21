@@ -14,6 +14,10 @@ import nengo
 #TODO check this implementation on Friday and what is diffferent to the MNIST version whre I used a digit, waited either 50 or 100 ms and then the network had to learn
 #TODO check this vs multi-tensor version, pattern learning in signal 
 #reminder moving dot on image -> worth to search for or generate a test data set?
+
+
+#AHA ok, here the synthetic input is still used, see above. I should add anozeher version
+
 now = datetime.now()
 RUN_STAMP = f"{now.strftime('%Y')}{now.strftime('%b').upper()}{now.strftime('%d_%H_%M')}"
 RESULTS_DIR = Path("results") / RUN_STAMP
