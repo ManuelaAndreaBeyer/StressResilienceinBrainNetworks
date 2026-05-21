@@ -1,16 +1,14 @@
-# Overall Analysis Plan - Nengo Summer School 2026 preparation
-
-# TODO update this after Latex decluttering!
-
+# Overall Analysis Plan for network analysis - Nengo Summer School 2026 preparation
 
 Usage: 
-This as a workflow to analyze different graph-like neural networks that use recurrence, E/I balance and neuromodulation to make the networks "biologically meaningful". 
+
+This as a workflow to analyze different graph-like neural networks that use recurrence, E/I balance and optionally neuromodulation to make the networks "biologically meaningful". 
 
 ---
 
-For me, the brain is a network and I would love to analyze the constructed netorks alike 
+For me, the brain is a network and I would love to analyze the constructed netorks alike, starting with a network model for the mPFC.
 
-The long-term goal is to investigate whether biologically inspired network architectures can provide mechanistic insights into stress resilience and adaptive network dynamics. My particular interest is in comparing different network architecture and network metrics and how they change under acute vs chronic stress. I am also interested in detecting transitions, that already came up in implementation and I would welcome the chance to discuss very preliminary findings.
+The long-term goal is to investigate whether biologically inspired network architectures can provide mechanistic insights into stress resilience and adaptive network dynamics. My particular interest is in comparing different network architectures and metrics and see how they change under acute vs chronic stress. I am also interested in detecting transitions, that already came up in implementation and I would welcome the chance to discuss very preliminary findings from 2025 and how the implementations can be improved.
 
 
 --- 
