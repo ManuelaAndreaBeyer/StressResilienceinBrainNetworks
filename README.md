@@ -8,3 +8,7 @@ investigation [7]. Importantly, acute and chronic stress differ in their effects
 
 The primary objective is to construct resilient and vulnerable computational brain network models, and to examine how controlled perturbations of varying intensity and duration affect their dynamics and stability before, during, and after stress, enabling comparisons of acute and chronic stress to study stress resilience.
 
+# Project for the Nengo Summer School
+
+
+
