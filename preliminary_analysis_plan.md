@@ -12,24 +12,24 @@ The long-term goal is to investigate whether biologically inspired network archi
 
 ---
 
-Most time from January 2025 to December 2025: I plenned to have 2 or more steps, one version to discuss:
+Most time from January 2025 to December 2025: I planned to have 2 or more steps, one version to discuss:
 
-Steps -Status quo 2026 MAY - reccurence and ei balance in graph like brain netowrks
+## Roadmap - not fixed yet! There are slightly differnet versions based on the idea, sometimes Steps are merged
 
+### Step 1 — Network architectures and E/I Recurrent Network Foundations
+Development and validation of recurrent excitatory–inhibitory (E/I) architectures inspired by cortical network organization. Comparative analysis of architectural variants using graph-theoretic and dynamical systems metrics.
 
-validation step that uses one network - I haven't decided if it is really the mPFC with IL, PL projections from the RNN and ResNet OR another cortical network (nothing implemented here, so I currently think I will do eihther mPFC or directly use mPFC-HIPP) - construction still with ei like in all architectures for paper: compare different architectures
--> NW analysis, 4 ei blocks for 1NODE
+### Step 2 — Multi-Region Network Modeling
+Extension toward interacting brain-region modules to investigate distributed computation, network dynamics, and adaptive behavior.
 
+### Step 3 — Neuromodulatory Mechanisms
+Integration of biologically motivated modulatory processes to study context-dependent regulation and network adaptation.
 
-Add the Amygdala 2NODE Analysis
+### Step 4 — Cognitive and Behavioral Tasks
+Evaluation on reinforcement-learning and conditioning paradigms linking neural dynamics to behavioral outcomes.
 
-
-Fear vs Reward Condotioning (arena idea), could be also implemented in a robot; tensor, shock, tone -> taks: alternating water reward -> behavioral response
-I think I will need here 2-3, max. 5NODE
-
-
-The above model will have mPFC (Il,PL)-HIPP-AMY nodes - this was the idea for the Generalized model and I thought I can link it and put it on one paper, but at the moment I am no longer sure about it...
-This step now will include neuromodulation (see how to in Latex cortisol, HPA achsis idea or use any ei relevant)
+### Step 5 — Large-Scale Brain-Inspired Architectures
+Expansion toward larger-scale cognitive architectures incorporating additional neural subsystems and disease-relevant network alterations.
 
 
 
