@@ -12,25 +12,21 @@ The long-term goal is to investigate whether biologically inspired network archi
 
 ---
 
+# Roadmap
 Most time from January 2025 to December 2025: I planned to have 2 or more steps, one version to discuss:
 
 ## Roadmap - not fixed yet! There are slightly differnet versions based on the idea, sometimes Steps are merged
 
 ### Step 1 — Network architectures and E/I Recurrent Network Foundations
-Development and validation of recurrent excitatory–inhibitory (E/I) architectures inspired by cortical network organization. Comparative analysis of architectural variants using graph-theoretic and dynamical systems metrics for resilient and depression-like model.
-Rodent or human brian -> discuss ( can I have somthing that can be very simila, where I can easily switch? 2025 Q1 only human, but becaus eof Ca-Imaging related also rodent considered and the studies for PTSD-like and depression-like would make it easier???
 
 ### Step 2 — Multi-Region Network Modeling
-Extension toward interacting brain-region modules to investigate distributed computation, network dynamics, and adaptive behavior.
 
-### Step 3 — Neuromodulatory Mechanisms
-Integration of biologically motivated modulatory processes to study context-dependent regulation and network adaptation.
+### Step 3 — Neuromodulatory Mechanisms - HPA achis idea
 
 ### Step 4 — Cognitive and Behavioral Tasks
-Evaluation on reinforcement-learning and conditioning paradigms linking neural dynamics to behavioral outcomes.
 
 ### Step 5 — Large-Scale Brain-Inspired Architectures
-Expansion toward larger-scale cognitive architectures incorporating additional neural subsystems and disease-relevant network alterations.
+
 
 
 
@@ -39,7 +35,6 @@ Expansion toward larger-scale cognitive architectures incorporating additional n
 
 
 More disease models in collaborations?
-
 --- 
 
 # Pipeline 
