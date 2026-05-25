@@ -11,4 +11,12 @@ The primary objective is to construct resilient and vulnerable computational bra
 # Project for the Nengo Summer School
 
 
+# discuss
+
+AdamW vs Adam vs SGD + Momentum
+
+I had RNN in 25 with MNIST +direction task, dealy of 50 or 100 ms and also 2D tensor UP UP DOWN vs other and rectangle vs other decision taks with/without a delay 
+SGD + Momentum not needed, in this?
+
+
 
