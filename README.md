@@ -12,13 +12,15 @@ The primary objective is to construct resilient and vulnerable computational bra
 
 
 # discuss
-
+torch implementations -> check "long version" quickly? 
 AdamW vs Adam vs SGD + Momentum
 
 I had RNN in 25 with MNIST +direction task, dealy of 50 or 100 ms and also 2D tensor UP UP DOWN vs other and rectangle vs other decision taks with/without a delay 
 SGD + Momentum not needed, in this?
 
-Resnet not repaired-> fix during Nengo
+Resnet not repaired-> fix during Nengo version from 2025 DEC22
+no good feedback -> is the ResNet idea not good enough? is there already too much complexity in?
+Maybe better use something started for the EI-RNN + MNIST and the signal tensors (or later 2025 the trajectories, what I did before Okinawa concerning tensors was not so well thought through and I used noise wrongly, I realized this in November when I actually started with the ResNet mouse idea
 
 
 
