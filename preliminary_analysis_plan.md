@@ -18,6 +18,8 @@ Most time from January 2025 to December 2025: I planned to have 2 or more steps,
 ## Roadmap - not fixed yet! There are slightly differnet versions based on the idea, sometimes Steps are merged
 
 ### Step 1 — Network architectures and E/I Recurrent Network Foundations
+define start architectures, use domain knowledge about EI imbalance in Depression, PTSD 
+focus on: dynamics, study stress resilience, architecture changes after stress, esp chronic slow allostatic (2025 already some preliminray results inhibitory dominance like already in literature) -> are the findings robust? i never ran the complete pipeline from DED 2025 on my nw
 
 ### Step 2 — Multi-Region Network Modeling
 
