@@ -11,16 +11,22 @@ The primary objective is to construct resilient and vulnerable computational bra
 # Project for the Nengo Summer School
 
 
-# discuss
-torch implementations -> check "long version" quickly? 
-AdamW vs Adam vs SGD + Momentum
+# one idea from 2025 
 
-I had RNN in 25 with MNIST +direction task, dealy of 50 or 100 ms and also 2D tensor UP UP DOWN vs other and rectangle vs other decision taks with/without a delay 
-SGD + Momentum not needed, in this?
+The experiment compared dense, sparse, modular, and small-world residual recurrent architectures in Nengo.
 
-Resnet not repaired-> fix during Nengo version from 2025 DEC22
-no good feedback -> is the ResNet idea not good enough? is there already too much complexity in?
-Maybe better use something started for the EI-RNN + MNIST and the signal tensors (or later 2025 the trajectories, what I did before Okinawa concerning tensors was not so well thought through and I used noise wrongly, I realized this in November when I actually started with the ResNet mouse idea
+Each network contained explicit excitatory and inhibitory (EI) populations with an 80:20 E to I ratio.
+
+Control, resilient, and vulnerable_depressive phenotypes were implemented as distinct dynamical regimes.
+
+Stress progressively altered E/I balance through inhibition loss, recurrent gain increase, elevated neural variability, and altered recurrent leak dynamics.
+
+Biologically inspired perturbation mechanisms included Gaussian noise injection, residual pathway degradation, synaptic gain amplification, heterogeneous synaptic time constants, partial neuronal silencing, and recurrent instability induction.
+
+Primary outputs were state drift, post-stress recovery ratio, persistent post-stress deviation, E/I balance, freezing-like output, reward-like output, and phase transition index.
+
+Best condition file:
+
 
 
 
