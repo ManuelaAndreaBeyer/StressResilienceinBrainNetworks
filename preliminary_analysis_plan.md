@@ -8,7 +8,7 @@ This as a workflow to analyze different graph-like neural networks that use recu
 
 For me, the brain is a network and I would love to analyze the constructed netorks alike, starting with a network model for the mPFC.
 
-The long-term goal is to investigate whether biologically inspired network architectures can provide mechanistic insights into stress resilience and adaptive network dynamics. My particular interest is in comparing different network architectures and metrics and see how they change under acute vs chronic stress. I am also interested in detecting transitions, that already came up in implementation and I would welcome the chance to discuss very preliminary findings from 2025 and how the implementations can be improved.
+The long-term goal is to investigate whether biologically inspired network architectures can provide mechanistic insights into stress resilience and adaptive network dynamics. My particular interest is in comparing different network architectures and metrics and see how they change under acute vs chronic stress. I am also interested in detecting transitions and I would welcome the chance to discuss very preliminary findings from 2025.
 
 ---
 
