@@ -11,20 +11,19 @@ The primary objective is to construct resilient and vulnerable computational bra
 # Project for the Nengo Summer School
 
 
-# my idea(s)
+# my idea(s) - prepare for projecct, sort out
+
+graph-like NN -> perform task -> train it (see LaTeX) * -> Link neural/network patterns to behavioor in first validation step 
 
 the __brain as a recurrent system__
-discuss using CNN, RNN, ResNet (leaning mechanisms)
+discuss using CNN, RNN, ResNet (leaning mechanisms), synapse settings
+
 discuss LSTM and other things mentioned last year in LaTeX
 
 focus on (start) architectutes and changes under stress
-INPUT -> connection weights are set randomly -> Neurons (biologically meaningful) -> weights, decoding ->Outputs 
+* INPUT -> connection weights are set randomly -> Neurons (biologically meaningful) -> weights, decoding ->Outputs - Optimization eg minimize the error (x-estimate_x)² 
 
-Optimization eg minimize the error (x-estimate_x)² 
-
-use a cortical network (discuss starting with mPFC or HIPP module) - cortical ei ratio 80:20
-
-use domain knowledge about ei imbalance/canges under stress (if possible create a depressive brain network)
+! use a cortical network (discuss starting with mPFC or HIPP module) - cortical ei ratio 80:20 <- I wanted to start with the mPFC and an EI-RNN in Q1 2025 and use domain knowledge about ei imbalance/canges under stress (if possible create a depressive brain network) (focussed more towards depression, PTSD, rodent papers)
 train the network on a task (I consider tensors or images as input, focus on up/down or directly direction up/down and right/left for tensors or rotationg images, so also direction)
 WHY because I want to have two (or later more) models 1 resilient one vulnerable to investigate behavior under stress (first link of neuronal pattern to behavior in "one" brain network)
 
