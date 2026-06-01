@@ -13,7 +13,12 @@ The primary objective is to construct resilient and vulnerable computational bra
 
 # my idea(s)
 
-use a cortical network (discuss starting with mPFC or HIPP module) 
+the brain as a recurrent system
+
+focus on (start) architectutes and changes under stress
+
+use a cortical network (discuss starting with mPFC or HIPP module) - cortical ei ratio 80:20
+
 use domain knowledge about ei imbalance/canges under stress (if possible create a depressive brain network)
 train the network on a task (I consider tensors or images as input, focus on up/down or directly direction up/down and right/left for tensors or rotationg images, so also direction)
 WHY because I want to have two (or later more) models 1 resilient one vulnerable to investigate behavior under stress (first link of neuronal pattern to behavior in "one" brain network)
