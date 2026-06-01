@@ -68,6 +68,8 @@ The first model will focus on one of two candidate modules:
 * **Medial Prefrontal Cortex (mPFC)**
 * **Hippocampus (HIPP)**
 
+* Later stage will then focus on the interaction of mPFC-Il,PL-HIPP-AMY (Amygdala) for the rodent in the arena (discuss the populations related to cognitive map, place, splitter, grid etc cells)
+
 The medial prefrontal cortex is particularly attractive because extensive literature links stress exposure to alterations in mPFC connectivity, inhibitory control, and behavioral regulation.
 
 ---
