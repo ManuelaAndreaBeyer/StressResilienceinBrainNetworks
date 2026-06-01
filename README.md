@@ -13,7 +13,9 @@ The primary objective is to construct resilient and vulnerable computational bra
 
 # my idea(s)
 
-the brain as a recurrent system
+the __brain as a recurrent system__
+discuss using CNN, RNN, ResNet (leaning mechanisms)
+discuss LSTM and other things mentioned last year in LaTeX
 
 focus on (start) architectutes and changes under stress
 INPUT -> connection weights are set randomly -> Neurons (biologically meaningful) -> weights, decoding ->Outputs 
