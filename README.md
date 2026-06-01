@@ -16,6 +16,9 @@ The primary objective is to construct resilient and vulnerable computational bra
 the brain as a recurrent system
 
 focus on (start) architectutes and changes under stress
+INPUT -> connection weights are set randomly -> Neurons (biologically meaningful) -> weights, decoding ->Outputs 
+
+Optimization eg minimize the error (x-estimate_x)² 
 
 use a cortical network (discuss starting with mPFC or HIPP module) - cortical ei ratio 80:20
 
