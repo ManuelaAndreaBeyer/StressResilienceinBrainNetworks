@@ -14,10 +14,10 @@ with model:
 
 #-----------------------------
 
-
 import nengo
 
 model = nengo.Network()
+
 
 with model:
     stim = nengo.Node([0])
@@ -26,6 +26,13 @@ with model:
     
     
     #dx/dt=[1/tau_desired)*(u-x)
+    
+    #dx/dt=[1/tau_desired)*u + (-1/tau_desired)*x
+    
+    #forward tau_synapse*g(u)
+    #recurrent tau_synapse*f(x)+x
+    
+    
     
     tau_synapse=0.02
     
