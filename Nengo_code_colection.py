@@ -19,11 +19,6 @@ import nengo
 
 model = nengo.Network()
 
-
-# Day 2
-
-
-
 with model:
     stim = nengo.Node([0])
     a = nengo.Ensemble(n_neurons=50, dimensions=1)
@@ -52,3 +47,7 @@ with model:
         return -(tau_synapse/tau_desired)x*x
         
     nengo.Connection(b,b, function=recurrent,synapse=tau_synapse)
+
+
+
+#-----------------------------
