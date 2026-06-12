@@ -1,4 +1,4 @@
-Project status: Planned, on hold
+Project status: Planned, started
 
 # Background
 
@@ -16,8 +16,10 @@ The primary objective is to construct resilient and vulnerable computational bra
 # Biological Recurrent Neural Networks for Investigating Stress-Induced Vulnerability and Resilience
 
 IMPORTANT NOTE: all networks that will be used in Nengo and have been used 2025 were recurrent networks, also in case I use SPAUN. 
-I added the ei balance nearly directly in 2025 because this makes the networks more biological + I also want to ensure neuronal heterogenity for the populations.
-Other biological features: noise, non-linearities
+I added the E/I balance nearly directly in 2025 because this makes the networks more biological + I also want to ensure neuronal heterogenity for the populations.
+Other biological features: noise, non-linearities.
+
+context: disease modeliing stick to depression and extend in later stages
 
 ## Motivation
 
