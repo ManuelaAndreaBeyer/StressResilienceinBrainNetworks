@@ -185,72 +185,57 @@ Potential future tasks include:
 These extensions would permit progressively richer comparisons between resilient and vulnerable network phenotypes.
 
 ---
-
 # EI-RNN Cognitive Architecture: Hippocampus → mPFC
 
 ## Overview
 
 This architecture models the interaction between the Hippocampus (HIPP) and Medial Prefrontal Cortex (mPFC) using coupled Excitatory-Inhibitory Recurrent Neural Networks (EI-RNNs).
 
-The core idea is that the Hippocampus learns a cognitive map from spatial inputs, while the mPFC uses this information together with task-relevant signals to generate behavioral outputs.
+The Hippocampus learns a cognitive map from spatial inputs, while the mPFC uses this information together with task-relevant signals to generate behavioral outputs.
 
 ---
 
 ## Components
 
-### 1. Hippocampus (HIPP)
+### Hippocampus (HIPP)
 
 **Input:** 2D spatial coordinates
 
-\[
+```text
 (x_t, y_t)
-\]
-
-**Function:**
-
-- Learn spatial representations
-- Construct a cognitive map
-- Encode contextual and environmental information
-- Maintain recurrent memory of location and trajectory
+```
 
 **Output:**
 
-\[
-h_t^{HIPP}
-\]
+```text
+h_t^HIPP
+```
 
 A latent spatial-state representation that captures the current position within the cognitive map.
 
 ---
 
-### 2. Medial Prefrontal Cortex (mPFC)
+### Medial Prefrontal Cortex (mPFC)
 
-**Input:**
+**Inputs:**
 
-- 1D task/behavioral signal
-
-\[
+```text
 u_t
-\]
+```
 
-- Hippocampal state
+Task signal.
 
-\[
-h_t^{HIPP}
-\]
+```text
+h_t^HIPP
+```
 
-**Function:**
-
-- Integrate task demands with spatial context
-- Maintain working memory
-- Select actions and behavioral policies
-- Produce behavioral outputs
+Spatial/context representation from the hippocampus.
 
 **Output:**
 
-\[
+```text
 a_t
-\]
+```
 
 Behavioral prediction or action.
 
@@ -287,56 +272,82 @@ Behavioral prediction or action.
 
 ### Hippocampus Dynamics
 
-\[
-h_t^{HIPP}
-=
-f_{HIPP}
-\left(
-h_{t-1}^{HIPP},
-(x_t,y_t)
-\right)
-\]
+```text
+h_t^HIPP = f_HIPP(h_(t-1)^HIPP, (x_t, y_t))
+```
 
 where:
 
-- \(f_{HIPP}\) is an EI-RNN
-- \((x_t,y_t)\) is the 2D spatial input
+* `f_HIPP` is an EI-RNN
+* `(x_t, y_t)` is the 2D spatial input
 
 ---
 
 ### mPFC Dynamics
 
-\[
-h_t^{mPFC}
-=
-f_{mPFC}
-\left(
-h_{t-1}^{mPFC},
-u_t,
-h_t^{HIPP}
-\right)
-\]
+```text
+h_t^mPFC = f_mPFC(h_(t-1)^mPFC, u_t, h_t^HIPP)
+```
 
 where:
 
-- \(u_t\) is a 1D task signal
-- \(h_t^{HIPP}\) is the cognitive-map representation
+* `u_t` is a 1D task signal
+* `h_t^HIPP` is the cognitive-map representation
 
 ---
 
 ### Behavioral Readout
 
-\[
-a_t
-=
-W_o h_t^{mPFC}
-+b_o
-\]
+```text
+a_t = W_o h_t^mPFC + b_o
+```
 
 where:
 
-- \(a_t\) is the behavioral output
-- \(W_o\) and \(b_o\) are readout parameters
+* `a_t` is the behavioral output
+* `W_o` and `b_o` are readout parameters
+
+---
+
+## Core Hypothesis
+
+The hippocampus provides a structured cognitive-map representation of space and context.
+
+```text
+(x, y) → h^HIPP
+```
+
+The mPFC transforms this representation into task-dependent behavior.
+
+```text
+(u_t, h^HIPP) → a_t
+```
+
+---
+
+## Research Questions
+
+* Can place-cell-like representations emerge in the HIPP EI-RNN?
+* Can task-selective neurons emerge in the mPFC EI-RNN?
+* How does hippocampal information influence behavioral decisions?
+* Can the model reproduce context-dependent decision making?
+* Does the architecture develop biologically plausible hippocampus–prefrontal interactions?
+
+---
+
+## Summary
+
+```text
+2D Spatial State
+      ↓
+ HIPP EI-RNN
+      ↓
+ Cognitive Map
+      ↓
+ mPFC EI-RNN + 1D Task Input
+      ↓
+ Behavioral Output
+```
 
 ---
 
