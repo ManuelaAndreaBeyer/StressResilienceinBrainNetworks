@@ -248,7 +248,7 @@ Behavioral prediction or action.
       │
       ▼
 +----------------+
-|  HIPP EI-RNN   |
+| HIPP EI-RNN   |
 | Cognitive Map  |
 +----------------+
       │
@@ -257,7 +257,7 @@ Behavioral prediction or action.
       │
       ▼
 +----------------+
-|  mPFC EI-RNN   |
+| mPFC EI-RNN   |
 | Behavioral     |
 | Controller     |
 +----------------+
