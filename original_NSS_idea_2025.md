@@ -200,6 +200,8 @@ The long-term goal is to identify how specific alterations in neural connectivit
 
 
 --- 
+RNN with differnt delays used -> 1D and 2D as well as higher dimensions
+reminder: needed, goal online learning
 
 move to git
 
