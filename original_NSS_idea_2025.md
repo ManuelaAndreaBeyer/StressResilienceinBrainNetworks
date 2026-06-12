@@ -186,6 +186,189 @@ These extensions would permit progressively richer comparisons between resilient
 
 ---
 
+# EI-RNN Cognitive Architecture: Hippocampus → mPFC
+
+## Overview
+
+This architecture models the interaction between the Hippocampus (HIPP) and Medial Prefrontal Cortex (mPFC) using coupled Excitatory-Inhibitory Recurrent Neural Networks (EI-RNNs).
+
+The core idea is that the Hippocampus learns a cognitive map from spatial inputs, while the mPFC uses this information together with task-relevant signals to generate behavioral outputs.
+
+---
+
+## Components
+
+### 1. Hippocampus (HIPP)
+
+**Input:** 2D spatial coordinates
+
+\[
+(x_t, y_t)
+\]
+
+**Function:**
+
+- Learn spatial representations
+- Construct a cognitive map
+- Encode contextual and environmental information
+- Maintain recurrent memory of location and trajectory
+
+**Output:**
+
+\[
+h_t^{HIPP}
+\]
+
+A latent spatial-state representation that captures the current position within the cognitive map.
+
+---
+
+### 2. Medial Prefrontal Cortex (mPFC)
+
+**Input:**
+
+- 1D task/behavioral signal
+
+\[
+u_t
+\]
+
+- Hippocampal state
+
+\[
+h_t^{HIPP}
+\]
+
+**Function:**
+
+- Integrate task demands with spatial context
+- Maintain working memory
+- Select actions and behavioral policies
+- Produce behavioral outputs
+
+**Output:**
+
+\[
+a_t
+\]
+
+Behavioral prediction or action.
+
+---
+
+## Information Flow
+
+```text
+2D Spatial Input
+      │
+      ▼
++----------------+
+|  HIPP EI-RNN   |
+| Cognitive Map  |
++----------------+
+      │
+      ▼
+ Spatial Embedding
+      │
+      ▼
++----------------+
+|  mPFC EI-RNN   |
+| Behavioral     |
+| Controller     |
++----------------+
+      │
+      ▼
+ Behavioral Output
+```
+
+---
+
+## Mathematical Formulation
+
+### Hippocampus Dynamics
+
+\[
+h_t^{HIPP}
+=
+f_{HIPP}
+\left(
+h_{t-1}^{HIPP},
+(x_t,y_t)
+\right)
+\]
+
+where:
+
+- \(f_{HIPP}\) is an EI-RNN
+- \((x_t,y_t)\) is the 2D spatial input
+
+---
+
+### mPFC Dynamics
+
+\[
+h_t^{mPFC}
+=
+f_{mPFC}
+\left(
+h_{t-1}^{mPFC},
+u_t,
+h_t^{HIPP}
+\right)
+\]
+
+where:
+
+- \(u_t\) is a 1D task signal
+- \(h_t^{HIPP}\) is the cognitive-map representation
+
+---
+
+### Behavioral Readout
+
+\[
+a_t
+=
+W_o h_t^{mPFC}
++b_o
+\]
+
+where:
+
+- \(a_t\) is the behavioral output
+- \(W_o\) and \(b_o\) are readout parameters
+
+---
+
+## Hypothesis
+
+The Hippocampus provides a structured cognitive-map representation of space and context, while the mPFC transforms this representation into task-dependent behavioral decisions.
+
+In summary:
+
+**HIPP = Spatial/Contextual Memory**
+
+\[
+(x,y) \rightarrow h^{HIPP}
+\]
+
+**mPFC = Behavioral Control**
+
+\[
+(u_t, h^{HIPP}) \rightarrow a_t
+\]
+
+This architecture can be used to study:
+
+- Cognitive maps
+- Context-dependent decision making
+- Spatial navigation
+- Memory-guided behavior
+- Hippocampus–prefrontal interactions
+- Emergent place-cell and task-cell dynamics
+
+---
+
 # Expected Contribution
 
 This project aims to bridge computational neuroscience and machine learning by constructing biologically interpretable recurrent neural networks that model stress-induced changes in neural circuitry.
