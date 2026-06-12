@@ -79,8 +79,8 @@ This excitatory-inhibitory balance is a fundamental property of cortical circuit
 
 The first model will focus on one of two candidate modules:
 
-* **Medial Prefrontal Cortex (mPFC)**
-* **Hippocampus (HIPP)**
+* **Medial Prefrontal Cortex (mPFC)** -> use 1D input
+* **Hippocampus (HIPP)** -> use 2D Input -> cognitive map 
 
 * Later stage will then focus on the interaction of mPFC-Il,PL-HIPP-AMY (Amygdala) for the rodent in the arena (discuss the populations related to cognitive map, place, splitter, grid etc cells)
 
@@ -133,7 +133,7 @@ As an initial validation step, the network will be trained on simple sensorimoto
 
 Potential inputs include:
 
-* Tensors
+* Tensors (1D,2D used)
 * Images
 * Rotated images
 * Directional stimuli
