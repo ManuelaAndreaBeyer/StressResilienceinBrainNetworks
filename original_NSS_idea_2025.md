@@ -390,25 +390,3 @@ The long-term goal is to identify how specific alterations in neural connectivit
 --- 
 RNN with differnt delays used -> 1D and 2D as well as higher dimensions
 reminder: needed, goal online learning
-
-
-#reminder for two neurons
-# Alice and Bob neuron 
-# both are sensitive to one position: x position of the eye
-
-#for 40 neurons
-
-    with model:
-    ens = nengo.Ensemble(n_neurons=40, dimensions=1)
-    
-    
-    stim = nengo.Node([0])
-    nengo.Connection(stim, ens)
-    
-    output = nengo.Node(None, size_in=1)
-    
-    def square(x):
-        return x*x
-        
-    nengo.Connection(ens, output, function=square)
-    
