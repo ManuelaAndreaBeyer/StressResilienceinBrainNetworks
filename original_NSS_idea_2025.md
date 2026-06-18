@@ -48,14 +48,11 @@ Several neural network architectures will be reviewed as conceptual background:
 * Convolutional Neural Networks (CNNs)
 * Recurrent Neural Networks (RNNs) -> EI-RNNS for mPFC, Hippocampus together with Amygdala can be discussed -> focus on dynamics and Network architecture
 * Residual Networks (ResNets)
-* Long Short-Term Memory Networks (LSTMs) -> reuse but transfer work from 2025 (preparation for NSS)
 * Other recurrent architectures discussed in previous work 2025 (preparation for NSS)
 
 While these architectures provide useful computational principles, the primary focus of this project will be on network metrics (transitivity, clustering...), network topology, and biologically constrained recurrent networks over time (dynamics!). I further would like to have a network of 500 neurons to start (reason: easier to check the network metrics).
 
 ---
-
-
 
 # Biologically Inspired Network Architecture
 
