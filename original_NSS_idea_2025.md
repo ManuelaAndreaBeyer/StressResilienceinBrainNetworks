@@ -38,11 +38,6 @@ This framework aims to establish an initial link between neural circuit dynamics
 
 # prep for first presentation
 
-#reminder 
-
-# SPAUN -> possible future work 
-
-is a recurrent NW -> use this in later stage for the mouse to compare task performance in my models vs SPAUN? useful to look at least for stressor which NW metrics change here under stress?
 
 # The Brain as a Recurrent Dynamical System
 
