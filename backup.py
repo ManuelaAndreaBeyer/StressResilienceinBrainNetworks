@@ -46,39 +46,6 @@ class DaleEIProjection(nn.Module):
     columns = presynaptic neurons.
     Excitatory columns >= 0, inhibitory columns <= 0.
     """
-    def __init__(self, n, p_exc=0.8, g=1.0):
-        super().__init__()
-        self.n = n
-        n_exc = int(p_exc * n)
-        sign = torch.ones(n)
-        sign[n_exc:] = -1.0
-        self.register_buffer("dale_sign", sign.view(1, n))  # column signs
-
-        self.raw_w = nn.Parameter(0.1 * torch.randn(n, n))
-        self.g = g
-
-    def forward(self):
-        w_pos = F.softplus(self.raw_w)
-        w = w_pos * self.dale_sign
-        w = w / (self.n ** 0.5) * self.g
-        return w
-
-
-class RateEIRNN(nn.Module):
-    """
-    Rate-based EI-RNN:
-    I called this 2025 "continous time"
-    x[t+1] = (1-alpha)x[t] + alpha * tanh(x[t]Wrec + u[t]Win + b)
-    """
-    def __init__(self, input_dim, hidden_dim, output_dim,
-                 il_dim=None, pl_dim=None, p_exc=0.8, dt=1.0, tau=20.0):
-        super().__init__()
-        self.hidden_dim = hidden_dim
-        self.alpha = dt / tau
-
-        self.win = nn.Linear(input_dim, hidden_dim, bias=False)
-        self.rec = DaleEIProjection(hidden_dim, p_exc=p_exc)
-        self.bias = nn.Parameter(torch.zeros(hidden_dim))
 
         # IL / PL projections
         self.il_proj = nn.Linear(il_dim, hidden_dim, bias=False) if il_dim else None
