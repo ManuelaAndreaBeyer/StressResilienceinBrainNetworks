@@ -10,8 +10,30 @@
 
 # feedback: scientific gap! Many EI-RNN paper deal with mPFC-like, stress and I will probably work on one of my other ideas that do not use the mPFC module as a single component
 ---
+"""
 
 
+Cell type specific populations as small networks, use spiking neural networks (LIF) first, explore continuous time like 2025 later
+
+Start of Nengo: Explore original idea for this summer school: 
+crtitical: proposal is superficial
+
+depression like phenotype:
+| Region |         Cell type | Chronic stress effect                 | Model implementation                |
+| ------ | ----------------: | ------------------------------------- | ----------------------------------- |
+| PL     | Pyramidal neurons | increased I/E via stronger inhibition | increase inhibitory gain onto PL-PN |
+| IL     | Pyramidal neurons | increased I/E via weaker excitation   | decrease excitatory gain onto IL-PN |
+| PL/IL  |   PV interneurons | largely unaffected                    | keep PV modulation near 1           |
+link to paper that was considered early before summer school and propably offers potential for discussion: https://pubmed.ncbi.nlm.nih.gov/39147579/
+
+
+idea: transfer EI-RNNs representing mPFC, HIPP AMY modules to Nengo, add neuromodulation?
+I thought, we have to start with one module and add functional components here, but we found a better approach :)
+
+-> still open: discuss how the "old" idea can be used to study stress resilience. static networks after training
+
+"""
+#TODO discuss and sort out later, just backup early implementation using ai
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
