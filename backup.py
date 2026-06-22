@@ -2,6 +2,13 @@
 #commit discuss how ei rnn can be transferred to nengo, adding functional companents and having a depressive model to compare it to the resilient (well performing enough?)
 
 #simple backbones 
+
+
+# IMPORTANT: these implementations are not biological enough, so they have to be adjusted and improved as they are too "obvious"
+
+# discuss what may make these starting architectures more concrete and specific, only a delay task is not enough
+
+# feedback: scientific gap! Many EI-RNN paper deal with mPFC-like, stress and I will probably work on one of my other ideas that do not use the mPFC module as a single component
 ---
 
 
@@ -13,6 +20,7 @@ import torch.nn.functional as F
 class DaleEIProjection(nn.Module):
     """
     EI recurrent matrix with Dale constraint:
+    I called this 2025 "only exitatory or inhibitory"
     columns = presynaptic neurons.
     Excitatory columns >= 0, inhibitory columns <= 0.
     """
@@ -37,6 +45,7 @@ class DaleEIProjection(nn.Module):
 class RateEIRNN(nn.Module):
     """
     Rate-based EI-RNN:
+    I called this 2025 "continous time"
     x[t+1] = (1-alpha)x[t] + alpha * tanh(x[t]Wrec + u[t]Win + b)
     """
     def __init__(self, input_dim, hidden_dim, output_dim,
@@ -175,12 +184,13 @@ class SpikingEIRNN(nn.Module):
 
 class NeuromodulatedDaleEIRNN(nn.Module):
     """
-    Rate-based EI-RNN with:
+    Rate-based EI-RNN with: 
+    # note: I already transferred some EI-RNNs 2025 into rate-based (continous time) networks, after Okinawa
 
     - Dale constraint
     - excitatory / inhibitory populations
     - PL / IL regional split
-    - chronic-stress-like neuromodulation
+    - chronic-stress-like neuromodulation # we have to discuss when neuromodulation will be implemented
 
     Biological mapping:
         PL stress effect:
