@@ -1,4 +1,6 @@
 #todo discuss this and how it may be transferred to nengo
+#commit discuss how ei rnn can be transferred to nengo, adding functional companents and having a depressive model to compare it to the resilient (well performing enough?)
+
 #simple backbones 
 ---
 
