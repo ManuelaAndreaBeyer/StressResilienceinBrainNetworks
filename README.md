@@ -13,4 +13,13 @@ The primary objective is to construct resilient and vulnerable computational bra
 #TODO enter a clean version when finished
 
 
+| Region |         Cell type | Chronic stress effect                 | Model implementation                |
+| ------ | ----------------: | ------------------------------------- | ----------------------------------- |
+| PL     | Pyramidal neurons | increased I/E via stronger inhibition | increase inhibitory gain onto PL-PN |
+| IL     | Pyramidal neurons | increased I/E via weaker excitation   | decrease excitatory gain onto IL-PN |
+| PL/IL  |   PV interneurons | largely unaffected                    | keep PV modulation near 1           |
+
+
+Cell type specific populations as small networks, use spiking neural networks (LIF) first, explore continuous time like 2025 later
+
 
