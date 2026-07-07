@@ -11,3 +11,5 @@ The primary objective is to construct resilient and vulnerable computational bra
 # Project for the Nengo Summer School
 
 #TODO enter a clean version when finished
+
+recurrent NW - EI RNN and ResNet from 2025 +NM
