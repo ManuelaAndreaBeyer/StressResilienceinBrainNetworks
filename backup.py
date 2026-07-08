@@ -3,11 +3,7 @@
 
 #simple backbones 
 
-# not sure if i can use this anymore
-
-
-# IMPORTANT: these implementations are not biological enough, so they have to be adjusted and improved as they are too "obvious"
-
+# IMPORTANT: improve biological context - I can use it, but it needs to be biologically meaningful 
 # discuss what may make these starting architectures more concrete and specific, only a delay task is not enough
 
 # feedback: scientific gap! Many EI-RNN paper deal with mPFC-like, stress and I will probably work on one of my other ideas that do not use the mPFC module as a single component
