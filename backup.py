@@ -22,7 +22,8 @@ depression like phenotype:
 | PL     | Pyramidal neurons | increased I/E via stronger inhibition | increase inhibitory gain onto PL-PN |
 | IL     | Pyramidal neurons | increased I/E via weaker excitation   | decrease excitatory gain onto IL-PN |
 | PL/IL  |   PV interneurons | largely unaffected                    | keep PV modulation near 1           |
-Paper I decided to use for the mpfc module: https://pubmed.ncbi.nlm.nih.gov/39147579/
+One paper I decided to use for the mpfc module: https://pubmed.ncbi.nlm.nih.gov/39147579/ 
+I showed this paper after Okinawa 
 
 
 idea: transfer EI-RNNs representing mPFC, HIPP AMY modules to Nengo, add neuromodulation?
