@@ -23,13 +23,15 @@ depression like phenotype:
 | IL     | Pyramidal neurons | increased I/E via weaker excitation   | decrease excitatory gain onto IL-PN |
 | PL/IL  |   PV interneurons | largely unaffected                    | keep PV modulation near 1           |
 One paper I decided to use for the mpfc module: https://pubmed.ncbi.nlm.nih.gov/39147579/ 
-I showed this paper after Okinawa 
+#reminder: showed this paper after OCNC
 
 
 idea: transfer EI-RNNs representing mPFC, HIPP AMY modules to Nengo, add neuromodulation?
+
 I thought, we have to start with one module and add functional components here, but we found a better approach :)
 
--> still open: discuss how the "old" idea can be used to study stress resilience. static networks after training
+-> still open: discuss how the "old" idea can be used to study stress resilience
+-> have a model of depression
 
 """
 #TODO discuss and sort out later, just backup early implementation using ai
